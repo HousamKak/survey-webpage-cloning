@@ -3,7 +3,7 @@ body {
 }
 
 .box {
-    height:92%;
+    height:850px;
     width:30%;
     background-color:#e4e4e4;
     margin-left: 35%;
@@ -13,35 +13,71 @@ body {
 }
 
 .box1 {
-    height:13%;
+    height:10%;
     width:100%;
     background-color:#fffffe;
     position:relative;
     box-sizing:border-box;
     padding-left:33%;
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 .box2 {
-    height:87%;
+    height:500px;
     width:100%;
     position:relative;
     box-sizing:border-box;
 }
 
 .box21{
-    height:10%;
+    height:18%;
     width:50%;
     float:left;
     margin-top: -2.5%;
 }
 
 .box22{
-    height:10%;
+    height:18%;
     width:50%;
     float:right;
     margin-top: -2.5%;
     
+}
+
+.box23{
+    height:18%;
+    width:45%;
+    float:left;
+    margin-left:4.3% ;
+}
+
+.box24{
+    height:18%;
+    width:48%;
+    float:right; 
+}
+.box23e{
+    height:15%;
+    width:45%;
+    float:left;
+    margin-left:4.3% ;
+}
+
+.box24e{
+    height:15%;
+    width:48%;
+    float:right; 
+}
+
+.box25{
+    height:12%;
+    width:48%;
+    float:right; 
+}
+
+.box3 {
+    height:30%;
+    width:100%;
 }
 
 .title {
@@ -59,9 +95,7 @@ font-weight: 900;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#77363c;
     font-weight: 900;
-    position:relative;
-    box-sizing:border-box;
-    padding-left: 10%;
+
 }
 
 .questions2{
@@ -74,23 +108,47 @@ font-weight: 900;
     box-sizing:border-box;
 }
 
+.questions3{
+
+    font-size:x-small ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#77363c;
+    font-weight: 900;
+    position:relative;
+    box-sizing:border-box;
+    padding-left: 5.4%;
+}
+
+
+
 .answers{
 
-    font-size:small;
+    font-size:x-small;
     color:#9c5058;
 }
 
 input[type=small]{
-    height: 35%;
+    height: 25%;
     width: 80%;
     border: 1px solid #bfc4cf;
     border-radius: 3px;
   }
   
   input[type=large]{
-    height: 25%;
-    width: 90%;
+    height: 60%;
+    width: 85%;
     border: 1px solid #bfc4cf;
     border-radius: 3px;
-    padding-left: 10%;
+    margin-left: 5%;
+
   }
+
+input::placeholder {
+	color:#99a6b9;
+    font-size: x-small;
+}
+
+input[type=radio]{
+  width: 8px;
+  height:9px;
+}
